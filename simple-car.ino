@@ -1,6 +1,6 @@
 void setup() {
 
-
+// 51E1
 }
 
 void loop() {
@@ -24,18 +24,18 @@ void loop() {
 }
 
 
-void Forward(int speed){
+void Forward(int Speed){
   analogWrite(5, 0);
   analogWrite(6, 0);  
-  analogWrite(3, speed);
-  analogWrite(9, speed);  
+  analogWrite(3, Speed);
+  analogWrite(9, Speed);  
 }
 
-void Back(int speed){
+void Back(int Speed){
   analogWrite(3, 0);
   analogWrite(9, 0);  
-  analogWrite(5, speed);
-  analogWrite(6, speed);  
+  analogWrite(5, Speed);
+  analogWrite(6, Speed);  
 }
 
 void Right(){
